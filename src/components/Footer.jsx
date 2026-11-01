@@ -11,11 +11,11 @@ const Footer = () => {
                 <a href="https://github.com/bhavanitham" target="_blank" rel="noopener noreferrer" className="flex gap-3">
                    GitHub <AiFillGithub size={30} />
                 </a>
-                <a href="https://www.linkedin.com/in/bhavanitha-m-bbba50258/" target="_blank" rel="noopener noreferrer" className="flex gap-3">
+                <a href="https://www.linkedin.com/in/bhavanitha-m-7a9510448/" target="_blank" rel="noopener noreferrer" className="flex gap-3">
                    Linkedin <AiFillLinkedin size={30} />
                 </a>
             </div>
-            <p className="mt-4 text-xs ">&copy; {new Date().getFullYear()} Bhavanitha . All rights reserved.</p>
+            <p className="mt-4 text-xs ">&copy; {new Date().getFullYear()} Bhavanitha M. All rights reserved.</p>
         </footer>
     );
 };

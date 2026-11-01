@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import "./ShinyButton.css";
 import { useState } from "react";
-import resume from "../resume/Bhavanitha_Resume.pdf"
+import resume from "../resume/RESUME.pdf"
 import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const ShinyButton = () => {
@@ -16,7 +16,7 @@ const ShinyButton = () => {
 
     const link = document.createElement('a');
     link.href = resume;
-    link.download = 'Bhavanitha_Resume.pdf';
+    link.download = 'RESUME.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -26,7 +26,7 @@ const ShinyButton = () => {
       setText("Thank You! Looking forward to hearing from you");
       setTimeout(() => {
         setClick(false);
-        setText("Your Solution Starts Here");
+        setText("Resume");
       }, 4000);
     }, 2000);
   };

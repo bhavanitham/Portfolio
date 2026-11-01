@@ -9,7 +9,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../components/CustomCursor.css";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { GoCopy } from "react-icons/go";
-import profile from "../assets/anime.jpg";
+import profile from "../assets/profile-img.png";
 import OverlayText from "../components/OverlayText";
 import LocationCard from "../components/LocationCard";
 function HeroSection() {
@@ -66,7 +66,7 @@ function HeroSection() {
               
               I'm  Bhavanitha
               <span className="font-bold  p-0.5 mx-1">
-                Certified Full-Stack Developer
+                Certified Full-Stack Developer 
               </span>{" "}
               from GUVI with hands-on experience in building dynamic and
               scalable web applications. I specialize in{" "}
@@ -86,7 +86,7 @@ function HeroSection() {
                 MongoDB
               </span>
               , crafting seamless user experiences with clean code and modern
-              development practices.
+              development practices. Hands on 2 years Experience in Full Stack Development
             </motion.p>
 
             {/* Social Links */}
@@ -104,7 +104,7 @@ function HeroSection() {
                 <FaGithub size={25} />
               </a>
               <a
-                href="https://www.linkedin.com/in/bhavanitha-m-bbba50258/"
+                href="https://www.linkedin.com/in/bhavanitha-m-7a9510448/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-100 text-2xl transition duration-300"
